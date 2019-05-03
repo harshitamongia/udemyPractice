@@ -1,0 +1,1 @@
+Placholder for all JS excercises from the Udemy course :)
