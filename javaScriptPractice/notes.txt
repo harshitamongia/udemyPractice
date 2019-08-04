@@ -1,0 +1,12 @@
+Primitive
+Number - floating point decimals integers
+String 
+Boolean
+Undefined - Data type of a var with no val yet - its auto defined (initially is non-existant)
+Null - non - Existant
+
+Non-primitive
+object??
+symbol??
+
+Dynamic Typing in JS.
