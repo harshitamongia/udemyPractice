@@ -1,5 +1,5 @@
 
-var lastName = 'Smith'
-var firstName = 'John'
+var lastName = 'Jones'
+var firstName = 'Dean'
 
 console.log(lastName + ',' + firstName);
