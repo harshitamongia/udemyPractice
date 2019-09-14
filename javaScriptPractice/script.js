@@ -72,4 +72,43 @@ console.log(typeof 12);
 */
 
 
+/*
+var currentYear = 2019;
+var legalAge = 18;
+var yearJohn = 1989;
 
+const calculatedAgeJohn = currentYear - yearJohn;
+console.log(calculatedAgeJohn);
+var isLegalAge = calculatedAgeJohn >= legalAge;
+console.log(isLegalAge);
+
+// average 
+
+var ageJohn = calculatedAgeJohn;
+var ageMark = 36;
+
+var average = (ageJohn + ageMark) / 2;
+console.log(average);
+
+var x, y;
+
+x = y = 26;
+*/
+ /*
+
+ // Coding Challenge #1
+
+ 
+var heightJohn = 1.7;
+var heightMark = 1.6;
+var massJohn = 50;
+var massMark = 60;
+
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIJohn);
+var BMIMark = massMark / (heightMark * heightMark);
+console.log(BMIMark);
+
+var isMarkHigher = BMIMark > BMIJohn;
+console.log("Is Mark's BMI greater thatn John's ? " + isMarkHigher);
+*/
