@@ -170,5 +170,7 @@ if (BMIMark > BMIJohn){
 
 
 
-var firstName = 'John';
-var age = 14;
+// var firstName = 'John';
+// var age = 14;
+
+// New things coming up soon!!!
