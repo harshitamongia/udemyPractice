@@ -5,45 +5,46 @@ Learing about Variables and dataypes
 */
 
 /*
+// Declaring and Printing Two strings 
 // String A
 var firstName = 'John';
 console.log(firstName);
 
-//String B
+// String B and Int A
 var lastName = 'Smith';
 var age = 28;
 
-// Boolean
+// Using Boolean
 var fullAge = true;
 console.log (fullAge);
 
-// String C
+// Declaring and Using String C
 var job = 'Teacher';
 console.log(job);
 
-// Temp Variables
+// How to declare temp variables using "_ and $" 
 var _rainMan = 'Rain Man';
 var $mainMan = 'Main Man';
 console.log(_rainMan, $mainMan);
-*/
 
-/*
-Variable mutation and type coersion
-*/
+// ----------------------------------
 
-/*
+// Variable mutation and type coersion
+
 var firstName = 'John';
 var age = '23'
-
-//Type Coersion
 console.log(firstName + ' ' + age);
+
+// Type Coersion : the process of converting value from one type to another 
+// (such as string to number, object to boolean, and so on). 
+// Any type, be it primitive or an object, is a valid subject for type coercion. 
 
 var job, isMarried;
 
 job = 'teacher';
 isMarried = 'false';
-
 console.log(firstName + ' is a ' + age + ' year old ' + job + ". Is he married? " + isMarried);
+
 
 // Variable Mutation
 age = "Twenty Eight";
@@ -58,8 +59,8 @@ console.log(firstName + ' ' + lastName)
 Operators
 */
 
-// "/*-+"
-// ><
+// "  '/' '*'  '-'  '+'  "
+// "  '>' '<' "
 
 /*
 // typeof
