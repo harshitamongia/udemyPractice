@@ -38,15 +38,21 @@ console.log(firstName + ' ' + age);
 // Type Coersion : the process of converting value from one type to another 
 // (such as string to number, object to boolean, and so on). 
 // Any type, be it primitive or an object, is a valid subject for type coercion. 
+// For Example here " console.log(firstName + ' ' + age); " the variable age is a 
+// number but it is printed as a string just so that it becomes a part of the bigger 
+// string in the console log
 
 var job, isMarried;
-
 job = 'teacher';
 isMarried = 'false';
 console.log(firstName + ' is a ' + age + ' year old ' + job + ". Is he married? " + isMarried);
 
+/*
+*********************** 
+// Variable Mutation - age was a number before and below we assign it a string value. JS can change/mutate the type 
+// of the variable 'on the fly'. This is called the Variable Mutation
+*********************** 
 
-// Variable Mutation
 age = "Twenty Eight";
 job = "Driver";
 alert(firstName + ' is a ' + age + ' year old ' + job + ". Is he married? " + isMarried);
@@ -55,25 +61,30 @@ var lastName = prompt('What is his last name? ');
 console.log(firstName + ' ' + lastName)
 */
 
-/* 
-Operators
-*/
+/*
+*********************** 
+// Operators
+*********************** 
 
 // "  '/' '*'  '-'  '+'  "
 // "  '>' '<' "
 
+***********************/
+
 /*
-// typeof
+**********************
+// typeof - gives you the type of the entity in front of it
+********************** 
 var x;
-console.log(typeof x);
-console.log(typeof xy);
-console.log(typeof '12');
-console.log(typeof 12);
+console.log(typeof x);      // Undefined
+console.log(typeof xy);     // Undefined
+console.log(typeof '12');   // String
+console.log(typeof 12);     // Number
 
-*/
-
+************************/
 
 /*
+**********************
 var currentYear = 2019;
 var legalAge = 18;
 var yearJohn = 1989;
@@ -83,22 +94,24 @@ console.log(calculatedAgeJohn);
 var isLegalAge = calculatedAgeJohn >= legalAge;
 console.log(isLegalAge);
 
+**********************
 // average 
+**********************
 
 var ageJohn = calculatedAgeJohn;
 var ageMark = 36;
-
 var average = (ageJohn + ageMark) / 2;
 console.log(average);
 
 var x, y;
-
 x = y = 26;
 */
- /*
 
- // Coding Challenge #1
+/********************************************/
 
+/*
+
+// Coding Challenge #1
  
 var heightJohn = 1.7;
 var heightMark = 1.6;
@@ -112,13 +125,15 @@ console.log(BMIMark);
 
 var isMarkHigher = BMIMark > BMIJohn;
 console.log("Is Mark's BMI greater thatn John's ? " + isMarkHigher);
-*/
+
+*********************************************/
 
 
-/* If else
-*/
+/*********************** 
+// If else
+***********************/
 
-/*
+/***********************
 var fisrtName = "John"
 var civilStatus = 'single'
 
@@ -151,8 +166,7 @@ if (BMIMark > BMIJohn){
     console.log('John\'s BMI is greater than Mark\'s BMI ')
 }
 
-*/
-
+*********************************************/
 
 // Boolean Logic
 
@@ -169,11 +183,7 @@ if (BMIMark > BMIJohn){
 //     console.log(firstName + ' is a man.');
 // }
 
-
-
 // var firstName = 'John';
 // var age = 14;
 
 // New things coming up soon!!!
-
-// Editing file one
